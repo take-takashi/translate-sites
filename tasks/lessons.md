@@ -1,0 +1,4 @@
+# Lessons
+
+- README を正本とし、概要変更時は `openspec/project.md` へ同期する。
+- 最初の対象サイトを決めたら、OpenSpec の proposal・design・spec・tasks すべてに受け入れ対象として明示する。
