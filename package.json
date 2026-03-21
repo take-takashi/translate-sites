@@ -1,4 +1,7 @@
 {
+	"name": "translate-sites",
+	"version": "0.1.0",
+	"private": true,
 	"dependencies": {
 		"@fission-ai/openspec": "^1.2.0"
 	}
