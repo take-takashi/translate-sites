@@ -25,3 +25,15 @@
 - `proposal.md` と `design.md` に、`mise` を使う理由と代表URLによる受け入れ確認方針を追記した。
 - `spec.md` に `mise.jdx.dev` を使った具体的な scenario を追加し、コードブロック保持と source traceability を明文化した。
 - `tasks.md` に `mise` の代表ページを使った確認タスクを追加した。
+
+## Plan: .mise.local.toml 追跡解除
+
+- [x] `.mise.local.toml` を Git の追跡対象から外す
+- [x] ignore 設定が意図どおり効く状態を確認する
+- [x] 対応内容をコミットする
+
+## Review: .mise.local.toml 追跡解除
+
+- `git rm --cached .mise.local.toml` で Git の追跡対象から外した。
+- `git check-ignore -v .mise.local.toml` で `.gitignore` の設定が有効であることを確認した。
+- ローカルファイルは残したまま、今後は未追跡の ignore 対象として扱える状態にした。
