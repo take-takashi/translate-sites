@@ -2,6 +2,10 @@
 	"name": "translate-sites",
 	"version": "0.1.0",
 	"private": true,
+	"scripts": {
+		"test": "node --test",
+		"verify:bootstrap": "node scripts/verify-bootstrap.js"
+	},
 	"dependencies": {
 		"@fission-ai/openspec": "^1.2.0"
 	}

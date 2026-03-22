@@ -2,6 +2,7 @@ name: mise
 display_name: mise-en-place
 entry_urls:
   - https://mise.jdx.dev/tasks/
+  - https://mise.jdx.dev/environments/
 allowed_domains:
   - mise.jdx.dev
 raw_dir: data/raw/mise

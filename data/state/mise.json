@@ -1,7 +1,7 @@
 {
   "site": "mise",
   "display_name": "mise-en-place",
-  "updated_at": "2026-03-22T08:49:32+0900",
+  "updated_at": "2026-03-22T16:08:49+0900",
   "pages": [
     {
       "url": "https://mise.jdx.dev/tasks/",
@@ -13,6 +13,22 @@
       "translated_at": "2026-03-22T08:49:32+0900",
       "source_last_modified": "Sat, 21 Mar 2026 22:23:50 GMT",
       "raw_sha256": "04e4d8907679eb60efd1e5467ba35262f663b29a72600b346549ca3b679e2f5a",
+      "notes": [
+        "raw HTML を保存済み",
+        "主要本文を日本語 Markdown として保存済み",
+        "サイドバーや前後ページナビゲーションは翻訳対象から外した"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/environments/",
+      "slug": "environments",
+      "status": "translated",
+      "raw_path": "data/raw/mise/environments/index.html",
+      "ja_path": "data/ja/mise/environments/index.md",
+      "fetched_at": "2026-03-22T06:20:27Z",
+      "translated_at": "2026-03-22T16:08:49+0900",
+      "source_last_modified": "Sun, 22 Mar 2026 05:55:58 GMT",
+      "raw_sha256": "7b012eea7d0ffc0feefe5da026991b0a39a6d9b09be8f66d5aac3ada368b7f7b",
       "notes": [
         "raw HTML を保存済み",
         "主要本文を日本語 Markdown として保存済み",

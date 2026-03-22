@@ -119,3 +119,45 @@
 - 正式 spec を前提に、bootstrap 実装向けの proposal / design / delta specs / tasks を追加した。
 - `pnpm exec openspec status --change implement-site-config-and-storage-bootstrap --json` で artifact 完了を確認した。
 - `pnpm exec openspec instructions apply --change implement-site-config-and-storage-bootstrap --json` で、次の実装タスクが 8 件あることを確認した。
+
+## Plan: bootstrap 実装
+
+- [x] `sites/*.yml` の最小必須項目を読み取り・検証する実装を追加する
+- [x] source URL から raw / ja path を決定する共通処理を追加する
+- [x] 翻訳済み metadata と state 更新の共通処理を追加する
+- [x] sample データを使ったテストと検証を追加する
+
+## Review: bootstrap 実装
+
+- `src/bootstrap/` に site config 読み込み、path 生成、translated metadata、state 更新の共通処理を追加した。
+- `scripts/verify-bootstrap.js` を追加し、`sites/mise.yml`、`data/ja/mise/tasks/index.md`、`data/state/mise.json` が共通処理で再現できることを確認した。
+- `test/bootstrap.test.js` を追加し、`pnpm test` で 6 件すべて成功した。
+- `pnpm exec openspec instructions apply --change implement-site-config-and-storage-bootstrap --json` で `8/8 complete` を確認した。
+
+## Plan: mise environments サンプル追加
+
+- [x] `https://mise.jdx.dev/environments/` の raw を取得する
+- [x] `data/ja/mise/environments/index.md` を追加する
+- [x] `data/state/mise.json` に environments ページを追記する
+- [x] 結果を確認して記録する
+
+## Review: mise environments サンプル追加
+
+- `data/raw/mise/environments/index.html` に raw HTML を保存した。
+- `data/ja/mise/environments/index.md` に主要本文を日本語 Markdown として追加した。
+- `data/state/mise.json` に `environments` ページの取得時刻、翻訳時刻、source hash を記録した。
+- `sites/mise.yml` の `entry_urls` に `https://mise.jdx.dev/environments/` を追加し、対象URL一覧へ反映した。
+
+## Plan: mise environments 全文準拠化
+
+- [x] 原作準拠を翻訳ルールとして `tasks/lessons.md` に記録する
+- [x] `environments` 原文の全見出しと欠落節を洗い出す
+- [x] `data/ja/mise/environments/index.md` を全文・原文準拠に修正する
+- [x] `data/state/mise.json` と作業記録を更新し、結果を確認する
+
+## Review: mise environments 全文準拠化
+
+- `tasks/lessons.md` に「翻訳成果物は原作準拠で、省略や例の差し替えをしない」ルールを追加した。
+- `data/raw/mise/environments/index.html` を基準に、`data/ja/mise/environments/index.md` を抜粋から全文ベースへ差し替えた。
+- 欠けていた `Using environment variables`、`Required Variables`、`config_root`、`env._.path`、`Plugin-provided env._ Directives` などの節を追加した。
+- `Templates` と `Using env vars in other env vars` の例文を原文準拠の内容へ修正し、`data/state/mise.json` の翻訳時刻も更新した。
