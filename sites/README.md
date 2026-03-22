@@ -12,6 +12,12 @@
 - `ja_dir`: 翻訳済み保存先ディレクトリ
 - `state_file`: site 単位の状態管理ファイル
 
+## 任意項目
+
+- `include_path_prefixes`: site-wide 収集時に対象とする path prefix 一覧
+- `exclude_path_prefixes`: site-wide 収集時に除外する path prefix 一覧
+- `exclude_url_patterns`: site-wide 収集時に除外する URL pattern 一覧。JavaScript の正規表現として扱う
+
 ## ルール
 
 - 1ファイルにつき1サイトを定義する
@@ -19,6 +25,8 @@
 - `raw_dir`, `ja_dir`, `state_file` はリポジトリルートからの相対パスで記述する
 - `entry_urls` は後続の取得や追加ページ管理の起点として扱う
 - `allowed_domains` に含まれないURLは、そのサイト設定では扱わない
+- `include_path_prefixes` を省略した場合は `/` を既定値として扱う
+- `exclude_*` は site-wide なページ収集時だけ使う
 
 ## 例
 

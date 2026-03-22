@@ -31,6 +31,7 @@ function main() {
 	const config = loadSiteConfig("sites/mise.yml");
 	assert.equal(config.name, "mise");
 	assert.deepEqual(config.entryUrls, [
+		"https://mise.jdx.dev/",
 		"https://mise.jdx.dev/tasks/",
 		"https://mise.jdx.dev/environments/",
 	]);
@@ -95,7 +96,23 @@ function main() {
 			],
 		}),
 	);
-	assert.deepEqual(updatedStateWithEnvironments.pages, state.pages);
+	const sortPages = (pages) => [...pages].sort((left, right) => left.url.localeCompare(right.url));
+	const translatedPages = state.pages.filter((page) => page.status === "translated");
+	assert.equal(sortPages(updatedStateWithEnvironments.pages).length, sortPages(translatedPages).length);
+	for (const expectedPage of sortPages(updatedStateWithEnvironments.pages)) {
+		const actualPage = translatedPages.find((page) => page.url === expectedPage.url);
+		assert.ok(actualPage, `translated page not found: ${expectedPage.url}`);
+		assert.equal(actualPage.status, expectedPage.status);
+		assert.equal(actualPage.raw_path, expectedPage.raw_path);
+		assert.equal(actualPage.ja_path, expectedPage.ja_path);
+		assert.equal(actualPage.fetched_at, expectedPage.fetched_at);
+		assert.equal(actualPage.translated_at, expectedPage.translated_at);
+		assert.equal(actualPage.source_last_modified, expectedPage.source_last_modified);
+		assert.equal(actualPage.raw_sha256, expectedPage.raw_sha256);
+		for (const note of expectedPage.notes) {
+			assert.ok(actualPage.notes.includes(note), `missing note for ${expectedPage.url}: ${note}`);
+		}
+	}
 
 	process.stdout.write("bootstrap verification passed\n");
 }

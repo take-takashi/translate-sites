@@ -11,8 +11,21 @@ const REQUIRED_FIELDS = [
 	"state_file",
 ];
 
+const OPTIONAL_ARRAY_FIELDS = [
+	"include_path_prefixes",
+	"exclude_path_prefixes",
+	"exclude_url_patterns",
+];
+
 function parseScalar(value) {
-	return value.trim();
+	const trimmed = value.trim();
+	if (
+		(trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+		(trimmed.startsWith("'") && trimmed.endsWith("'"))
+	) {
+		return trimmed.slice(1, -1);
+	}
+	return trimmed;
 }
 
 function parseSimpleYaml(contents) {
@@ -31,7 +44,7 @@ function parseSimpleYaml(contents) {
 			if (!currentArrayKey) {
 				throw new Error(`Invalid list item without key: ${trimmed}`);
 			}
-			result[currentArrayKey].push(trimmed.replace(/^-+\s+/, ""));
+			result[currentArrayKey].push(parseScalar(trimmed.replace(/^-+\s+/, "")));
 			continue;
 		}
 
@@ -67,6 +80,12 @@ function validateSiteConfig(config) {
 	if (missingFields.length > 0) {
 		throw new Error(`Missing required site config fields: ${missingFields.join(", ")}`);
 	}
+
+	for (const field of OPTIONAL_ARRAY_FIELDS) {
+		if (field in config && !Array.isArray(config[field])) {
+			throw new Error(`Optional site config field must be an array: ${field}`);
+		}
+	}
 }
 
 function normalizeSiteConfig(config, filePath) {
@@ -78,6 +97,9 @@ function normalizeSiteConfig(config, filePath) {
 		rawDir: config.raw_dir,
 		jaDir: config.ja_dir,
 		stateFile: config.state_file,
+		includePathPrefixes: [...(config.include_path_prefixes ?? ["/"])],
+		excludePathPrefixes: [...(config.exclude_path_prefixes ?? [])],
+		excludeUrlPatterns: [...(config.exclude_url_patterns ?? [])],
 		filePath,
 	};
 }
@@ -91,6 +113,7 @@ function loadSiteConfig(filePath) {
 
 module.exports = {
 	REQUIRED_FIELDS,
+	OPTIONAL_ARRAY_FIELDS,
 	loadSiteConfig,
 	internal: {
 		parseSimpleYaml,

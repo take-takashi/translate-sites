@@ -4,6 +4,12 @@ entry_urls:
   - https://example.com/docs/
 allowed_domains:
   - example.com
+include_path_prefixes:
+  - /
+exclude_path_prefixes:
+  - /assets/
+exclude_url_patterns:
+  - "[.](css|js|png|jpg|jpeg|svg|ico|xml)$"
 raw_dir: data/raw/example
 ja_dir: data/ja/example
 state_file: data/state/example.json

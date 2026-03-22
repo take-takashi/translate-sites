@@ -17,6 +17,7 @@ test("site config を読み取り必須項目を検証する", () => {
 	assert.equal(config.name, "mise");
 	assert.equal(config.displayName, "mise-en-place");
 	assert.deepEqual(config.entryUrls, [
+		"https://mise.jdx.dev/",
 		"https://mise.jdx.dev/tasks/",
 		"https://mise.jdx.dev/environments/",
 	]);

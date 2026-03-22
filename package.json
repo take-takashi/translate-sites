@@ -4,7 +4,9 @@
 	"private": true,
 	"scripts": {
 		"test": "node --test",
-		"verify:bootstrap": "node scripts/verify-bootstrap.js"
+		"verify:bootstrap": "node scripts/verify-bootstrap.js",
+		"sync:mise-site-wide": "node scripts/sync-mise-site-wide.js",
+		"verify:site-wide": "node scripts/verify-site-wide.js"
 	},
 	"dependencies": {
 		"@fission-ai/openspec": "^1.2.0"

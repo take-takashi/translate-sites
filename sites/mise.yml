@@ -1,10 +1,20 @@
 name: mise
 display_name: mise-en-place
 entry_urls:
+  - https://mise.jdx.dev/
   - https://mise.jdx.dev/tasks/
   - https://mise.jdx.dev/environments/
 allowed_domains:
   - mise.jdx.dev
+include_path_prefixes:
+  - /
+exclude_path_prefixes:
+  - /assets/
+  - /cdn-cgi/
+exclude_url_patterns:
+  - "[.](css|js|png|jpg|jpeg|svg|ico|xml|woff2?)$"
+  - "/apple-touch-icon[.]png$"
+  - "/favicon(?:-[0-9]+x[0-9]+)?(?:[.]svg|[.]png|[.]ico)?$"
 raw_dir: data/raw/mise
 ja_dir: data/ja/mise
 state_file: data/state/mise.json

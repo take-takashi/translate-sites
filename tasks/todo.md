@@ -174,3 +174,18 @@
 - `site-page-discovery` と `site-wide-translation-batch` を新 capability として追加した。
 - `site-config-registry` と `translation-state-tracking` の delta spec を追加し、site-wide 収集と状態追跡を扱えるようにした。
 - `pnpm exec openspec status --change add-mise-site-wide-translation-workflow --json` で tasks が ready になることを確認した。
+
+## Plan: add-mise-site-wide-translation-workflow 実装
+
+- [x] `sites/mise.yml` と site config 読み込み処理を site-wide 収集用の設定に対応させる
+- [x] `mise.jdx.dev` の内部リンクから docs 本文ページを列挙する discovery 処理を追加する
+- [x] 列挙済みページ群を state へ反映し、代表ページを raw / ja / state へ保存する batch 処理を追加する
+- [x] テストと検証スクリプトを更新し、結果をレビューへ記録する
+
+## Review: add-mise-site-wide-translation-workflow 実装
+
+- `src/site-wide/` に URL 正規化、内部リンク抽出、対象判定、site-wide state 反映、代表ページ反映の処理を追加した。
+- `sites/mise.yml` に site-wide 収集用の `include_path_prefixes`、`exclude_path_prefixes`、`exclude_url_patterns` を追加した。
+- `scripts/sync-mise-site-wide.js` で `mise` 全体の discovery 結果を `data/state/mise.json` へ反映できるようにし、実行結果として `discovered 202`、`skipped 2392`、state には管理対象 443 ページを記録した。
+- representative pages として既存の `tasks`、`environments` を `translated` 状態で保持し、残りを `discovered` / `skipped` として site-wide state に統合した。
+- `pnpm test`、`pnpm run verify:bootstrap`、`pnpm run verify:site-wide` をすべて成功させた。

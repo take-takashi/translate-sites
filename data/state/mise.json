@@ -1,22 +1,3249 @@
 {
   "site": "mise",
   "display_name": "mise-en-place",
-  "updated_at": "2026-03-22T16:08:49+0900",
+  "updated_at": "2026-03-22T08:55:00.988Z",
   "pages": [
     {
-      "url": "https://mise.jdx.dev/tasks/",
-      "slug": "tasks",
-      "status": "translated",
-      "raw_path": "data/raw/mise/tasks/index.html",
-      "ja_path": "data/ja/mise/tasks/index.md",
-      "fetched_at": "2026-03-21T23:49:32Z",
-      "translated_at": "2026-03-22T08:49:32+0900",
-      "source_last_modified": "Sat, 21 Mar 2026 22:23:50 GMT",
-      "raw_sha256": "04e4d8907679eb60efd1e5467ba35262f663b29a72600b346549ca3b679e2f5a",
+      "url": "https://mise.jdx.dev/",
+      "slug": "index",
+      "status": "discovered",
       "notes": [
-        "raw HTML を保存済み",
-        "主要本文を日本語 Markdown として保存済み",
-        "サイドバーや前後ページナビゲーションは翻訳対象から外した"
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/about.html",
+      "slug": "about",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/apple-touch-icon.png",
+      "slug": "apple-touch-icon",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-url-pattern"
+    },
+    {
+      "url": "https://mise.jdx.dev/architecture.html",
+      "slug": "architecture",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/asdf-legacy-plugins.html",
+      "slug": "asdf-legacy-plugins",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/about.md.aGeg7cPU.lean.js",
+      "slug": "assets-about.md.aGeg7cPU.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/architecture.md.CIlApxXx.lean.js",
+      "slug": "assets-architecture.md.CIlApxXx.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/asdf-legacy-plugins.md.B5-xWkv3.lean.js",
+      "slug": "assets-asdf-legacy-plugins.md.B5-xWkv3.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/backend-plugin-development.md.Db-KN2dj.lean.js",
+      "slug": "assets-backend-plugin-development.md.Db-KN2dj.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cache-behavior.md.BFh7OplG.lean.js",
+      "slug": "assets-cache-behavior.md.BFh7OplG.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/architectureDiagram-VXUJARFQ.DMMcUTWl.js",
+      "slug": "assets-chunks-architectureDiagram-VXUJARFQ.DMMcUTWl",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/blockDiagram-VD42YOAC.COMkjE9H.js",
+      "slug": "assets-chunks-blockDiagram-VD42YOAC.COMkjE9H",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/c4Diagram-YG6GDRKO.Hbv-Wa8Z.js",
+      "slug": "assets-chunks-c4Diagram-YG6GDRKO.Hbv-Wa8Z",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/classDiagram-2ON5EDUG.CASANQtE.js",
+      "slug": "assets-chunks-classDiagram-2ON5EDUG.CASANQtE",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/classDiagram-v2-WZHVMYZB.CASANQtE.js",
+      "slug": "assets-chunks-classDiagram-v2-WZHVMYZB.CASANQtE",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/cose-bilkent-S5V4N54A.DTvrI5Nm.js",
+      "slug": "assets-chunks-cose-bilkent-S5V4N54A.DTvrI5Nm",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/dagre-6UL2VRFP.DonMLnaT.js",
+      "slug": "assets-chunks-dagre-6UL2VRFP.DonMLnaT",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/diagram-PSM6KHXK.BLstJ7Ql.js",
+      "slug": "assets-chunks-diagram-PSM6KHXK.BLstJ7Ql",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/diagram-QEK2KX5R.CFeLMiQS.js",
+      "slug": "assets-chunks-diagram-QEK2KX5R.CFeLMiQS",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/diagram-S2PKOQOG.CjU9Rj18.js",
+      "slug": "assets-chunks-diagram-S2PKOQOG.CjU9Rj18",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/erDiagram-Q2GNP2WA.CTncySNa.js",
+      "slug": "assets-chunks-erDiagram-Q2GNP2WA.CTncySNa",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/flowDiagram-NV44I4VS.Bj5bTH3F.js",
+      "slug": "assets-chunks-flowDiagram-NV44I4VS.Bj5bTH3F",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/framework.CM7GIqhq.js",
+      "slug": "assets-chunks-framework.CM7GIqhq",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/ganttDiagram-JELNMOA3.DnR5dgJO.js",
+      "slug": "assets-chunks-ganttDiagram-JELNMOA3.DnR5dgJO",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/gitGraphDiagram-NY62KEGX.AqULuUEg.js",
+      "slug": "assets-chunks-gitGraphDiagram-NY62KEGX.AqULuUEg",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/infoDiagram-WHAUD3N6.BWaUiP_i.js",
+      "slug": "assets-chunks-infoDiagram-WHAUD3N6.BWaUiP_i",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/journeyDiagram-XKPGCS4Q.-FZMr4Mf.js",
+      "slug": "assets-chunks-journeyDiagram-XKPGCS4Q.-FZMr4Mf",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/kanban-definition-3W4ZIXB7.Dxrutzc7.js",
+      "slug": "assets-chunks-kanban-definition-3W4ZIXB7.Dxrutzc7",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/katex.CBSAILhF.js",
+      "slug": "assets-chunks-katex.CBSAILhF",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/mindmap-definition-VGOIOE7T.DpE16rc5.js",
+      "slug": "assets-chunks-mindmap-definition-VGOIOE7T.DpE16rc5",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/pieDiagram-ADFJNKIX.BuvUI1Vt.js",
+      "slug": "assets-chunks-pieDiagram-ADFJNKIX.BuvUI1Vt",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/quadrantDiagram-AYHSOK5B.C8Ka-9P_.js",
+      "slug": "assets-chunks-quadrantDiagram-AYHSOK5B.C8Ka-9P_",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/requirementDiagram-UZGBJVZJ.DR4WD8cT.js",
+      "slug": "assets-chunks-requirementDiagram-UZGBJVZJ.DR4WD8cT",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/sankeyDiagram-TZEHDZUN.DPCh_C23.js",
+      "slug": "assets-chunks-sankeyDiagram-TZEHDZUN.DPCh_C23",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/sequenceDiagram-WL72ISMW.DEOih-Mm.js",
+      "slug": "assets-chunks-sequenceDiagram-WL72ISMW.DEOih-Mm",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/settings.DieelflX.js",
+      "slug": "assets-chunks-settings.DieelflX",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/stateDiagram-FKZM4ZOC.DDel0RCV.js",
+      "slug": "assets-chunks-stateDiagram-FKZM4ZOC.DDel0RCV",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/stateDiagram-v2-4FDKWEC3.Hi2jgH_A.js",
+      "slug": "assets-chunks-stateDiagram-v2-4FDKWEC3.Hi2jgH_A",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/theme.BwXHU7uv.js",
+      "slug": "assets-chunks-theme.BwXHU7uv",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/timeline-definition-IT6M3QCI.Bh6JFMiX.js",
+      "slug": "assets-chunks-timeline-definition-IT6M3QCI.Bh6JFMiX",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/virtual_mermaid-config.DDnGl6nM.js",
+      "slug": "assets-chunks-virtual_mermaid-config.DDnGl6nM",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/chunks/xychartDiagram-PRI3JC2R.C2X8Sm8n.js",
+      "slug": "assets-chunks-xychartDiagram-PRI3JC2R.C2X8Sm8n",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_activate.md.DiennMwi.lean.js",
+      "slug": "assets-cli_activate.md.DiennMwi.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_backends_ls.md.BPa6ykeT.lean.js",
+      "slug": "assets-cli_backends_ls.md.BPa6ykeT.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_backends.md.DqmktYJg.lean.js",
+      "slug": "assets-cli_backends.md.DqmktYJg.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_bin-paths.md.DSL_Gkox.lean.js",
+      "slug": "assets-cli_bin-paths.md.DSL_Gkox.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_cache_clear.md.CzQXU9oj.lean.js",
+      "slug": "assets-cli_cache_clear.md.CzQXU9oj.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_cache_path.md.bIXO_SKL.lean.js",
+      "slug": "assets-cli_cache_path.md.bIXO_SKL.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_cache_prune.md.M7yfyHgr.lean.js",
+      "slug": "assets-cli_cache_prune.md.M7yfyHgr.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_cache.md.CdDolwsY.lean.js",
+      "slug": "assets-cli_cache.md.CdDolwsY.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_completion.md.B7PABYYE.lean.js",
+      "slug": "assets-cli_completion.md.B7PABYYE.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_config_get.md.BoNq4VQk.lean.js",
+      "slug": "assets-cli_config_get.md.BoNq4VQk.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_config_ls.md.NTMfFKxs.lean.js",
+      "slug": "assets-cli_config_ls.md.NTMfFKxs.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_config_set.md.CzUjZXA1.lean.js",
+      "slug": "assets-cli_config_set.md.CzUjZXA1.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_config.md.9K5lfijK.lean.js",
+      "slug": "assets-cli_config.md.9K5lfijK.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_deactivate.md.YhQ8QvCt.lean.js",
+      "slug": "assets-cli_deactivate.md.YhQ8QvCt.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_doctor_path.md.CocHGL7a.lean.js",
+      "slug": "assets-cli_doctor_path.md.CocHGL7a.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_doctor.md.eH_c9en6.lean.js",
+      "slug": "assets-cli_doctor.md.eH_c9en6.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_edit.md.EdysKumV.lean.js",
+      "slug": "assets-cli_edit.md.EdysKumV.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_en.md.CS2hy_WY.lean.js",
+      "slug": "assets-cli_en.md.CS2hy_WY.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_env.md.jIe3lAYb.lean.js",
+      "slug": "assets-cli_env.md.jIe3lAYb.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_exec.md.DU8ugeMp.lean.js",
+      "slug": "assets-cli_exec.md.DU8ugeMp.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_fmt.md.B8aaxHAb.lean.js",
+      "slug": "assets-cli_fmt.md.B8aaxHAb.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_generate_bootstrap.md.CW4tBCRZ.lean.js",
+      "slug": "assets-cli_generate_bootstrap.md.CW4tBCRZ.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_generate_config.md.CtvJKBX9.lean.js",
+      "slug": "assets-cli_generate_config.md.CtvJKBX9.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_generate_devcontainer.md.ZBR-PwnB.lean.js",
+      "slug": "assets-cli_generate_devcontainer.md.ZBR-PwnB.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_generate_git-pre-commit.md.9PtczQ83.lean.js",
+      "slug": "assets-cli_generate_git-pre-commit.md.9PtczQ83.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_generate_github-action.md.Beei-4CO.lean.js",
+      "slug": "assets-cli_generate_github-action.md.Beei-4CO.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_generate_task-docs.md.BBaD4bDL.lean.js",
+      "slug": "assets-cli_generate_task-docs.md.BBaD4bDL.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_generate_task-stubs.md.CMthGr1z.lean.js",
+      "slug": "assets-cli_generate_task-stubs.md.CMthGr1z.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_generate_tool-stub.md.tyvbofp6.lean.js",
+      "slug": "assets-cli_generate_tool-stub.md.tyvbofp6.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_generate.md.C-yeJ7nC.lean.js",
+      "slug": "assets-cli_generate.md.C-yeJ7nC.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_implode.md.BfH9baUl.lean.js",
+      "slug": "assets-cli_implode.md.BfH9baUl.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_index.md.Bp5f40Qr.lean.js",
+      "slug": "assets-cli_index.md.Bp5f40Qr.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_install-into.md.qDIT-4ry.lean.js",
+      "slug": "assets-cli_install-into.md.qDIT-4ry.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_install.md.Bn31WD3W.lean.js",
+      "slug": "assets-cli_install.md.Bn31WD3W.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_latest.md.XeJpbHvf.lean.js",
+      "slug": "assets-cli_latest.md.XeJpbHvf.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_link.md.CF3dprKR.lean.js",
+      "slug": "assets-cli_link.md.CF3dprKR.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_lock.md.B0BPukTt.lean.js",
+      "slug": "assets-cli_lock.md.B0BPukTt.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_ls-remote.md.CiljWui4.lean.js",
+      "slug": "assets-cli_ls-remote.md.CiljWui4.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_ls.md.BQMOAWCC.lean.js",
+      "slug": "assets-cli_ls.md.BQMOAWCC.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_mcp.md.Bx-Mbq2k.lean.js",
+      "slug": "assets-cli_mcp.md.Bx-Mbq2k.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_outdated.md.DoCnMbb6.lean.js",
+      "slug": "assets-cli_outdated.md.DoCnMbb6.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_plugins_install.md.Cqx045hy.lean.js",
+      "slug": "assets-cli_plugins_install.md.Cqx045hy.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_plugins_link.md.DEsp4wZ_.lean.js",
+      "slug": "assets-cli_plugins_link.md.DEsp4wZ_.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_plugins_ls-remote.md.Cs8OMdkm.lean.js",
+      "slug": "assets-cli_plugins_ls-remote.md.Cs8OMdkm.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_plugins_ls.md.raa9znVR.lean.js",
+      "slug": "assets-cli_plugins_ls.md.raa9znVR.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_plugins_uninstall.md.TS8Dt-oB.lean.js",
+      "slug": "assets-cli_plugins_uninstall.md.TS8Dt-oB.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_plugins_update.md.ndV9LyDd.lean.js",
+      "slug": "assets-cli_plugins_update.md.ndV9LyDd.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_plugins.md.6FgRHqH6.lean.js",
+      "slug": "assets-cli_plugins.md.6FgRHqH6.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_prepare.md.DDazpKeD.lean.js",
+      "slug": "assets-cli_prepare.md.DDazpKeD.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_prune.md.DVMdGU2D.lean.js",
+      "slug": "assets-cli_prune.md.DVMdGU2D.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_registry.md.C2qrhyxa.lean.js",
+      "slug": "assets-cli_registry.md.C2qrhyxa.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_reshim.md.B3G7YeDp.lean.js",
+      "slug": "assets-cli_reshim.md.B3G7YeDp.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_run.md.gsPX_aAq.lean.js",
+      "slug": "assets-cli_run.md.gsPX_aAq.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_search.md.BezIyxsN.lean.js",
+      "slug": "assets-cli_search.md.BezIyxsN.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_self-update.md.8Arn8jog.lean.js",
+      "slug": "assets-cli_self-update.md.8Arn8jog.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_set.md.BJgB2iI-.lean.js",
+      "slug": "assets-cli_set.md.BJgB2iI-.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_settings_add.md.BTzR3rLQ.lean.js",
+      "slug": "assets-cli_settings_add.md.BTzR3rLQ.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_settings_get.md.Cug6BSem.lean.js",
+      "slug": "assets-cli_settings_get.md.Cug6BSem.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_settings_ls.md.DHpHv2l8.lean.js",
+      "slug": "assets-cli_settings_ls.md.DHpHv2l8.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_settings_set.md.Bz7Jut4u.lean.js",
+      "slug": "assets-cli_settings_set.md.Bz7Jut4u.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_settings_unset.md.DSv2HS_G.lean.js",
+      "slug": "assets-cli_settings_unset.md.DSv2HS_G.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_settings.md.BL7ffhdH.lean.js",
+      "slug": "assets-cli_settings.md.BL7ffhdH.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_shell-alias_get.md.D-GaFDQr.lean.js",
+      "slug": "assets-cli_shell-alias_get.md.D-GaFDQr.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_shell-alias_ls.md.B_ALpPzt.lean.js",
+      "slug": "assets-cli_shell-alias_ls.md.B_ALpPzt.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_shell-alias_set.md.C8cRonY7.lean.js",
+      "slug": "assets-cli_shell-alias_set.md.C8cRonY7.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_shell-alias_unset.md.DJtS1E4k.lean.js",
+      "slug": "assets-cli_shell-alias_unset.md.DJtS1E4k.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_shell-alias.md.CswDnvnK.lean.js",
+      "slug": "assets-cli_shell-alias.md.CswDnvnK.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_shell.md._uJc0VrO.lean.js",
+      "slug": "assets-cli_shell.md._uJc0VrO.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_sync_node.md.CKTe-ccS.lean.js",
+      "slug": "assets-cli_sync_node.md.CKTe-ccS.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_sync_python.md.CzvT7QmW.lean.js",
+      "slug": "assets-cli_sync_python.md.CzvT7QmW.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_sync_ruby.md.C1OKyljk.lean.js",
+      "slug": "assets-cli_sync_ruby.md.C1OKyljk.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_sync.md.CNG3vQ5f.lean.js",
+      "slug": "assets-cli_sync.md.CNG3vQ5f.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tasks_add.md.BxI0fPcp.lean.js",
+      "slug": "assets-cli_tasks_add.md.BxI0fPcp.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tasks_deps.md.CL57OY-u.lean.js",
+      "slug": "assets-cli_tasks_deps.md.CL57OY-u.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tasks_edit.md.B_DFmGHL.lean.js",
+      "slug": "assets-cli_tasks_edit.md.B_DFmGHL.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tasks_info.md.CC17b_lo.lean.js",
+      "slug": "assets-cli_tasks_info.md.CC17b_lo.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tasks_ls.md.DvW-maVw.lean.js",
+      "slug": "assets-cli_tasks_ls.md.DvW-maVw.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tasks_run.md.BjzphJE6.lean.js",
+      "slug": "assets-cli_tasks_run.md.BjzphJE6.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tasks_validate.md.BsodtgJu.lean.js",
+      "slug": "assets-cli_tasks_validate.md.BsodtgJu.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tasks.md.BO8hLS72.lean.js",
+      "slug": "assets-cli_tasks.md.BO8hLS72.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_test-tool.md.BZS6Og5t.lean.js",
+      "slug": "assets-cli_test-tool.md.BZS6Og5t.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tool-alias_get.md.D6rdgp-6.lean.js",
+      "slug": "assets-cli_tool-alias_get.md.D6rdgp-6.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tool-alias_ls.md.BE9OrNmv.lean.js",
+      "slug": "assets-cli_tool-alias_ls.md.BE9OrNmv.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tool-alias_set.md.CWXbIC4q.lean.js",
+      "slug": "assets-cli_tool-alias_set.md.CWXbIC4q.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tool-alias_unset.md.DkZhUvaN.lean.js",
+      "slug": "assets-cli_tool-alias_unset.md.DkZhUvaN.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tool-alias.md.DSsvXjiO.lean.js",
+      "slug": "assets-cli_tool-alias.md.DSsvXjiO.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tool-stub.md.DTQFsX9-.lean.js",
+      "slug": "assets-cli_tool-stub.md.DTQFsX9-.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_tool.md.DJFrhcum.lean.js",
+      "slug": "assets-cli_tool.md.DJFrhcum.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_trust.md.soSuIDH3.lean.js",
+      "slug": "assets-cli_trust.md.soSuIDH3.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_uninstall.md.D22tLJGg.lean.js",
+      "slug": "assets-cli_uninstall.md.D22tLJGg.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_unset.md.QHMgccb8.lean.js",
+      "slug": "assets-cli_unset.md.QHMgccb8.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_unuse.md.D0ibSi84.lean.js",
+      "slug": "assets-cli_unuse.md.D0ibSi84.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_upgrade.md.CG2oEvHQ.lean.js",
+      "slug": "assets-cli_upgrade.md.CG2oEvHQ.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_use.md.q7CieZFV.lean.js",
+      "slug": "assets-cli_use.md.q7CieZFV.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_version.md.DXkUNe5G.lean.js",
+      "slug": "assets-cli_version.md.DXkUNe5G.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_watch.md.xhjzZ_pt.lean.js",
+      "slug": "assets-cli_watch.md.xhjzZ_pt.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_where.md.Dxmfyldl.lean.js",
+      "slug": "assets-cli_where.md.Dxmfyldl.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/cli_which.md.CyRX6mo-.lean.js",
+      "slug": "assets-cli_which.md.CyRX6mo-.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/configuration_environments.md.BYJPTVSr.lean.js",
+      "slug": "assets-configuration_environments.md.BYJPTVSr.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/configuration_settings.md.ORuQsDDp.lean.js",
+      "slug": "assets-configuration_settings.md.ORuQsDDp.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/configuration.md.BljHLLmD.lean.js",
+      "slug": "assets-configuration.md.BljHLLmD.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/continuous-integration.md.D84hDSoH.lean.js",
+      "slug": "assets-continuous-integration.md.D84hDSoH.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/contributing.md.jwLI2P70.lean.js",
+      "slug": "assets-contributing.md.jwLI2P70.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/core-tools.md.DY-MnY2Y.lean.js",
+      "slug": "assets-core-tools.md.DY-MnY2Y.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/demo.md.CBxK28Xp.lean.js",
+      "slug": "assets-demo.md.CBxK28Xp.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_aliases.md.B_MPQ0ZS.lean.js",
+      "slug": "assets-dev-tools_aliases.md.B_MPQ0ZS.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backend_architecture.md.Z7VvWzHf.lean.js",
+      "slug": "assets-dev-tools_backend_architecture.md.Z7VvWzHf.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_aqua.md.DzTCQvMC.lean.js",
+      "slug": "assets-dev-tools_backends_aqua.md.DzTCQvMC.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_asdf.md.TuFMaOQZ.lean.js",
+      "slug": "assets-dev-tools_backends_asdf.md.TuFMaOQZ.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_cargo.md.nUXJvr7Y.lean.js",
+      "slug": "assets-dev-tools_backends_cargo.md.nUXJvr7Y.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_conda.md.B2QI-cLI.lean.js",
+      "slug": "assets-dev-tools_backends_conda.md.B2QI-cLI.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_dotnet.md.uVnVL4se.lean.js",
+      "slug": "assets-dev-tools_backends_dotnet.md.uVnVL4se.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_forgejo.md.C95XxjHf.lean.js",
+      "slug": "assets-dev-tools_backends_forgejo.md.C95XxjHf.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_gem.md.d26WVqR3.lean.js",
+      "slug": "assets-dev-tools_backends_gem.md.d26WVqR3.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_github.md.6orXZHjk.lean.js",
+      "slug": "assets-dev-tools_backends_github.md.6orXZHjk.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_gitlab.md.B9h7gnTj.lean.js",
+      "slug": "assets-dev-tools_backends_gitlab.md.B9h7gnTj.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_go.md.DGXr--HT.lean.js",
+      "slug": "assets-dev-tools_backends_go.md.DGXr--HT.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_http.md.B_cJSr3K.lean.js",
+      "slug": "assets-dev-tools_backends_http.md.B_cJSr3K.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_index.md.Dzyg3o1B.lean.js",
+      "slug": "assets-dev-tools_backends_index.md.Dzyg3o1B.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_npm.md.B7tdnL22.lean.js",
+      "slug": "assets-dev-tools_backends_npm.md.B7tdnL22.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_pipx.md.wtMbQmuF.lean.js",
+      "slug": "assets-dev-tools_backends_pipx.md.wtMbQmuF.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_s3.md.DsQHwo7q.lean.js",
+      "slug": "assets-dev-tools_backends_s3.md.DsQHwo7q.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_spm.md.BukTB381.lean.js",
+      "slug": "assets-dev-tools_backends_spm.md.BukTB381.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_ubi.md.DMwK9TAd.lean.js",
+      "slug": "assets-dev-tools_backends_ubi.md.DMwK9TAd.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_backends_vfox.md.DCpmA6DG.lean.js",
+      "slug": "assets-dev-tools_backends_vfox.md.DCpmA6DG.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_comparison-to-asdf.md.DkfbHQhp.lean.js",
+      "slug": "assets-dev-tools_comparison-to-asdf.md.DkfbHQhp.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_github-tokens.md.BYcM2_y9.lean.js",
+      "slug": "assets-dev-tools_github-tokens.md.BYcM2_y9.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_index.md.BVVc5Oyz.lean.js",
+      "slug": "assets-dev-tools_index.md.BVVc5Oyz.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_mise-lock.md.BO-6CFou.lean.js",
+      "slug": "assets-dev-tools_mise-lock.md.BO-6CFou.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_prepare.md.CzaSBY88.lean.js",
+      "slug": "assets-dev-tools_prepare.md.CzaSBY88.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_shims.md.BC5clw7I.lean.js",
+      "slug": "assets-dev-tools_shims.md.BC5clw7I.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/dev-tools_tool-stubs.md._2rTgUPW.lean.js",
+      "slug": "assets-dev-tools_tool-stubs.md._2rTgUPW.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/directories.md.BVKRGJMp.lean.js",
+      "slug": "assets-directories.md.BVKRGJMp.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/direnv.md.C4SQlK67.lean.js",
+      "slug": "assets-direnv.md.C4SQlK67.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/env-plugin-development.md.A1YIfUTB.lean.js",
+      "slug": "assets-env-plugin-development.md.A1YIfUTB.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/environments_index.md.NRpg-nql.lean.js",
+      "slug": "assets-environments_index.md.NRpg-nql.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/environments_secrets_age.md.DlOV0iOc.lean.js",
+      "slug": "assets-environments_secrets_age.md.DlOV0iOc.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/environments_secrets_index.md.BeoWLXMU.lean.js",
+      "slug": "assets-environments_secrets_index.md.BeoWLXMU.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/environments_secrets_sops.md.CgzFNfDt.lean.js",
+      "slug": "assets-environments_secrets_sops.md.CgzFNfDt.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/external-resources.md.BP4Undie.lean.js",
+      "slug": "assets-external-resources.md.BP4Undie.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/faq.md.CSxCyA4A.lean.js",
+      "slug": "assets-faq.md.CSxCyA4A.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/getting-started.md.CNgmSZsU.lean.js",
+      "slug": "assets-getting-started.md.CNgmSZsU.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/glossary.md.DsnPLxD6.lean.js",
+      "slug": "assets-glossary.md.DsnPLxD6.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/hooks.md.D_vcmq_J.lean.js",
+      "slug": "assets-hooks.md.D_vcmq_J.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/how-i-use-mise.md.DDzyzFw5.lean.js",
+      "slug": "assets-how-i-use-mise.md.DDzyzFw5.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/ide-integration.md.DszJeIC8.lean.js",
+      "slug": "assets-ide-integration.md.DszJeIC8.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/index.md.yji64UhT.lean.js",
+      "slug": "assets-index.md.yji64UhT.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/installing-mise.md.DKWAWDqW.lean.js",
+      "slug": "assets-installing-mise.md.DKWAWDqW.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/inter-roman-latin.Di8DUHzh.woff2",
+      "slug": "assets-inter-roman-latin.Di8DUHzh",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_bun.md.9qdnxpqh.lean.js",
+      "slug": "assets-lang_bun.md.9qdnxpqh.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_deno.md.DL1LaKSf.lean.js",
+      "slug": "assets-lang_deno.md.DL1LaKSf.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_dotnet.md.9ayzJjCZ.lean.js",
+      "slug": "assets-lang_dotnet.md.9ayzJjCZ.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_elixir.md.DXwqAo6T.lean.js",
+      "slug": "assets-lang_elixir.md.DXwqAo6T.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_erlang.md.CRXUZTdd.lean.js",
+      "slug": "assets-lang_erlang.md.CRXUZTdd.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_go.md.BK1x5B1V.lean.js",
+      "slug": "assets-lang_go.md.BK1x5B1V.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_java.md.CboAmATB.lean.js",
+      "slug": "assets-lang_java.md.CboAmATB.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_node.md.l8gjHsF1.lean.js",
+      "slug": "assets-lang_node.md.l8gjHsF1.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_python.md.H2TD-H6G.lean.js",
+      "slug": "assets-lang_python.md.H2TD-H6G.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_ruby.md.DpIUmxRx.lean.js",
+      "slug": "assets-lang_ruby.md.DpIUmxRx.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_rust.md.DQaIqvMC.lean.js",
+      "slug": "assets-lang_rust.md.DQaIqvMC.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_swift.md.P0oPYEjJ.lean.js",
+      "slug": "assets-lang_swift.md.P0oPYEjJ.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/lang_zig.md.CqOqChXu.lean.js",
+      "slug": "assets-lang_zig.md.CqOqChXu.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mcp.md.CQz5Y0-_.lean.js",
+      "slug": "assets-mcp.md.CQz5Y0-_.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_cpp.md.BNghjOnf.lean.js",
+      "slug": "assets-mise-cookbook_cpp.md.BNghjOnf.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_docker.md.eNqrPuNu.lean.js",
+      "slug": "assets-mise-cookbook_docker.md.eNqrPuNu.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_index.md.CmQ6AYPr.lean.js",
+      "slug": "assets-mise-cookbook_index.md.CmQ6AYPr.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_neovim.md.B3SH1T_n.lean.js",
+      "slug": "assets-mise-cookbook_neovim.md.B3SH1T_n.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_nodejs.md.Djc_gAv4.lean.js",
+      "slug": "assets-mise-cookbook_nodejs.md.Djc_gAv4.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_presets.md.DY_lIpbf.lean.js",
+      "slug": "assets-mise-cookbook_presets.md.DY_lIpbf.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_python.md.X-Qo_ZU6.lean.js",
+      "slug": "assets-mise-cookbook_python.md.X-Qo_ZU6.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_ruby.md.B-iQW4hI.lean.js",
+      "slug": "assets-mise-cookbook_ruby.md.B-iQW4hI.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_shell-tricks.md.HfkAd1a8.lean.js",
+      "slug": "assets-mise-cookbook_shell-tricks.md.HfkAd1a8.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/mise-cookbook_terraform.md.BtwBQfYi.lean.js",
+      "slug": "assets-mise-cookbook_terraform.md.BtwBQfYi.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/paranoid.md.DeIFfItL.lean.js",
+      "slug": "assets-paranoid.md.DeIFfItL.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/plugin-lua-modules.md.DKQDoe0I.lean.js",
+      "slug": "assets-plugin-lua-modules.md.DKQDoe0I.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/plugin-publishing.md.CCANBjrs.lean.js",
+      "slug": "assets-plugin-publishing.md.CCANBjrs.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/plugin-usage.md.Dsv9Dqfj.lean.js",
+      "slug": "assets-plugin-usage.md.Dsv9Dqfj.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/plugins.md.Y_WR7FkC.lean.js",
+      "slug": "assets-plugins.md.Y_WR7FkC.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/registry.md.CpdvZJ8p.lean.js",
+      "slug": "assets-registry.md.CpdvZJ8p.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/shell-aliases.md.BzyndnsZ.lean.js",
+      "slug": "assets-shell-aliases.md.BzyndnsZ.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/style.c7csQnOq.css",
+      "slug": "assets-style.c7csQnOq",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tasks_architecture.md.DbZYElma.lean.js",
+      "slug": "assets-tasks_architecture.md.DbZYElma.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tasks_file-tasks.md.BSxuwcc6.lean.js",
+      "slug": "assets-tasks_file-tasks.md.BSxuwcc6.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tasks_index.md.0wWLYc-x.lean.js",
+      "slug": "assets-tasks_index.md.0wWLYc-x.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tasks_monorepo.md.DYBvdN6p.lean.js",
+      "slug": "assets-tasks_monorepo.md.DYBvdN6p.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tasks_running-tasks.md.DkwBeP80.lean.js",
+      "slug": "assets-tasks_running-tasks.md.DkwBeP80.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tasks_task-arguments.md.DEYeANSc.lean.js",
+      "slug": "assets-tasks_task-arguments.md.DEYeANSc.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tasks_task-configuration.md.96fbS0Pn.lean.js",
+      "slug": "assets-tasks_task-configuration.md.96fbS0Pn.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tasks_templates.md.BM5mZL-C.lean.js",
+      "slug": "assets-tasks_templates.md.BM5mZL-C.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tasks_toml-tasks.md.DXt_OoFU.lean.js",
+      "slug": "assets-tasks_toml-tasks.md.DXt_OoFU.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/team.md.BxgCMms0.lean.js",
+      "slug": "assets-team.md.BxgCMms0.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/templates.md.DbqfiKW3.lean.js",
+      "slug": "assets-templates.md.DbqfiKW3.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tips-and-tricks.md.DTS6WJ0j.lean.js",
+      "slug": "assets-tips-and-tricks.md.DTS6WJ0j.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/tool-plugin-development.md.BS6hhVuR.lean.js",
+      "slug": "assets-tool-plugin-development.md.BS6hhVuR.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/troubleshooting.md.lHtELP47.lean.js",
+      "slug": "assets-troubleshooting.md.lHtELP47.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/url-replacements.md.CRyUaLmR.lean.js",
+      "slug": "assets-url-replacements.md.CRyUaLmR.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/assets/walkthrough.md.hQoGGjpi.lean.js",
+      "slug": "assets-walkthrough.md.hQoGGjpi.lean",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-path-prefix"
+    },
+    {
+      "url": "https://mise.jdx.dev/backend-plugin-development.html",
+      "slug": "backend-plugin-development",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cache-behavior.html",
+      "slug": "cache-behavior",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/",
+      "slug": "cli",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/activate.html",
+      "slug": "cli-activate",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/backends.html",
+      "slug": "cli-backends",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/backends/ls.html",
+      "slug": "cli-backends-ls",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/bin-paths.html",
+      "slug": "cli-bin-paths",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/cache.html",
+      "slug": "cli-cache",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/cache/clear.html",
+      "slug": "cli-cache-clear",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/cache/path.html",
+      "slug": "cli-cache-path",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/cache/prune.html",
+      "slug": "cli-cache-prune",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/completion.html",
+      "slug": "cli-completion",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/config.html",
+      "slug": "cli-config",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/config/get.html",
+      "slug": "cli-config-get",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/config/ls.html",
+      "slug": "cli-config-ls",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/config/set.html",
+      "slug": "cli-config-set",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/deactivate.html",
+      "slug": "cli-deactivate",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/doctor.html",
+      "slug": "cli-doctor",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/doctor/path.html",
+      "slug": "cli-doctor-path",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/edit.html",
+      "slug": "cli-edit",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/en.html",
+      "slug": "cli-en",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/env.html",
+      "slug": "cli-env",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/exec.html",
+      "slug": "cli-exec",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/fmt.html",
+      "slug": "cli-fmt",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/generate.html",
+      "slug": "cli-generate",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/generate/bootstrap.html",
+      "slug": "cli-generate-bootstrap",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/generate/config.html",
+      "slug": "cli-generate-config",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/generate/devcontainer.html",
+      "slug": "cli-generate-devcontainer",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/generate/git-pre-commit.html",
+      "slug": "cli-generate-git-pre-commit",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/generate/github-action.html",
+      "slug": "cli-generate-github-action",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/generate/task-docs.html",
+      "slug": "cli-generate-task-docs",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/generate/task-stubs.html",
+      "slug": "cli-generate-task-stubs",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/generate/tool-stub.html",
+      "slug": "cli-generate-tool-stub",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/implode.html",
+      "slug": "cli-implode",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/install-into.html",
+      "slug": "cli-install-into",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/install.html",
+      "slug": "cli-install",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/latest.html",
+      "slug": "cli-latest",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/link.html",
+      "slug": "cli-link",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/lock.html",
+      "slug": "cli-lock",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/ls-remote.html",
+      "slug": "cli-ls-remote",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/ls.html",
+      "slug": "cli-ls",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/mcp.html",
+      "slug": "cli-mcp",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/outdated.html",
+      "slug": "cli-outdated",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/plugins.html",
+      "slug": "cli-plugins",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/plugins/install.html",
+      "slug": "cli-plugins-install",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/plugins/link.html",
+      "slug": "cli-plugins-link",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/plugins/ls-remote.html",
+      "slug": "cli-plugins-ls-remote",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/plugins/ls.html",
+      "slug": "cli-plugins-ls",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/plugins/uninstall.html",
+      "slug": "cli-plugins-uninstall",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/plugins/update.html",
+      "slug": "cli-plugins-update",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/prepare.html",
+      "slug": "cli-prepare",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/prune.html",
+      "slug": "cli-prune",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/registry.html",
+      "slug": "cli-registry",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/reshim.html",
+      "slug": "cli-reshim",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/run.html",
+      "slug": "cli-run",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/search.html",
+      "slug": "cli-search",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/self-update.html",
+      "slug": "cli-self-update",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/set.html",
+      "slug": "cli-set",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/settings.html",
+      "slug": "cli-settings",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/settings/add.html",
+      "slug": "cli-settings-add",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/settings/get.html",
+      "slug": "cli-settings-get",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/settings/ls.html",
+      "slug": "cli-settings-ls",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/settings/set.html",
+      "slug": "cli-settings-set",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/settings/unset.html",
+      "slug": "cli-settings-unset",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/shell-alias.html",
+      "slug": "cli-shell-alias",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/shell-alias/get.html",
+      "slug": "cli-shell-alias-get",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/shell-alias/ls.html",
+      "slug": "cli-shell-alias-ls",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/shell-alias/set.html",
+      "slug": "cli-shell-alias-set",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/shell-alias/unset.html",
+      "slug": "cli-shell-alias-unset",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/shell.html",
+      "slug": "cli-shell",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/sync.html",
+      "slug": "cli-sync",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/sync/node.html",
+      "slug": "cli-sync-node",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/sync/python.html",
+      "slug": "cli-sync-python",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/sync/ruby.html",
+      "slug": "cli-sync-ruby",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tasks.html",
+      "slug": "cli-tasks",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tasks/add.html",
+      "slug": "cli-tasks-add",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tasks/deps.html",
+      "slug": "cli-tasks-deps",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tasks/edit.html",
+      "slug": "cli-tasks-edit",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tasks/info.html",
+      "slug": "cli-tasks-info",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tasks/ls.html",
+      "slug": "cli-tasks-ls",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tasks/run.html",
+      "slug": "cli-tasks-run",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tasks/validate.html",
+      "slug": "cli-tasks-validate",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/test-tool.html",
+      "slug": "cli-test-tool",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tool-alias.html",
+      "slug": "cli-tool-alias",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tool-alias/get.html",
+      "slug": "cli-tool-alias-get",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tool-alias/ls.html",
+      "slug": "cli-tool-alias-ls",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tool-alias/set.html",
+      "slug": "cli-tool-alias-set",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tool-alias/unset.html",
+      "slug": "cli-tool-alias-unset",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tool-stub.html",
+      "slug": "cli-tool-stub",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/tool.html",
+      "slug": "cli-tool",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/trust.html",
+      "slug": "cli-trust",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/uninstall.html",
+      "slug": "cli-uninstall",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/unset.html",
+      "slug": "cli-unset",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/unuse.html",
+      "slug": "cli-unuse",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/upgrade.html",
+      "slug": "cli-upgrade",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/use.html",
+      "slug": "cli-use",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/version.html",
+      "slug": "cli-version",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/watch.html",
+      "slug": "cli-watch",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/where.html",
+      "slug": "cli-where",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/cli/which.html",
+      "slug": "cli-which",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/configuration.html",
+      "slug": "configuration",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/configuration/environments.html",
+      "slug": "configuration-environments",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/configuration/settings.html",
+      "slug": "configuration-settings",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/continuous-integration.html",
+      "slug": "continuous-integration",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/contributing.html",
+      "slug": "contributing",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/core-tools.html",
+      "slug": "core-tools",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/demo.html",
+      "slug": "demo",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/",
+      "slug": "dev-tools",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/aliases.html",
+      "slug": "dev-tools-aliases",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backend_architecture.html",
+      "slug": "dev-tools-backend_architecture",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/",
+      "slug": "dev-tools-backends",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/aqua.html",
+      "slug": "dev-tools-backends-aqua",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/asdf.html",
+      "slug": "dev-tools-backends-asdf",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/cargo.html",
+      "slug": "dev-tools-backends-cargo",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/conda.html",
+      "slug": "dev-tools-backends-conda",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/dotnet.html",
+      "slug": "dev-tools-backends-dotnet",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/forgejo.html",
+      "slug": "dev-tools-backends-forgejo",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/gem.html",
+      "slug": "dev-tools-backends-gem",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/github.html",
+      "slug": "dev-tools-backends-github",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/gitlab.html",
+      "slug": "dev-tools-backends-gitlab",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/go.html",
+      "slug": "dev-tools-backends-go",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/http.html",
+      "slug": "dev-tools-backends-http",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/npm.html",
+      "slug": "dev-tools-backends-npm",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/pipx.html",
+      "slug": "dev-tools-backends-pipx",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/s3.html",
+      "slug": "dev-tools-backends-s3",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/spm.html",
+      "slug": "dev-tools-backends-spm",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/ubi.html",
+      "slug": "dev-tools-backends-ubi",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/backends/vfox.html",
+      "slug": "dev-tools-backends-vfox",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/comparison-to-asdf.html",
+      "slug": "dev-tools-comparison-to-asdf",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/github-tokens.html",
+      "slug": "dev-tools-github-tokens",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/mise-lock.html",
+      "slug": "dev-tools-mise-lock",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/prepare.html",
+      "slug": "dev-tools-prepare",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/shims.html",
+      "slug": "dev-tools-shims",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/dev-tools/tool-stubs.html",
+      "slug": "dev-tools-tool-stubs",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/directories.html",
+      "slug": "directories",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/direnv.html",
+      "slug": "direnv",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/env-plugin-development.html",
+      "slug": "env-plugin-development",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
       ]
     },
     {
@@ -32,7 +3259,551 @@
       "notes": [
         "raw HTML を保存済み",
         "主要本文を日本語 Markdown として保存済み",
-        "サイドバーや前後ページナビゲーションは翻訳対象から外した"
+        "サイドバーや前後ページナビゲーションは翻訳対象から外した",
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/environments/secrets/",
+      "slug": "environments-secrets",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/environments/secrets/age.html",
+      "slug": "environments-secrets-age",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/environments/secrets/sops.html",
+      "slug": "environments-secrets-sops",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/external-resources.html",
+      "slug": "external-resources",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/faq.html",
+      "slug": "faq",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/favicon-16x16.png",
+      "slug": "favicon-16x16",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-url-pattern"
+    },
+    {
+      "url": "https://mise.jdx.dev/favicon-32x32.png",
+      "slug": "favicon-32x32",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-url-pattern"
+    },
+    {
+      "url": "https://mise.jdx.dev/favicon.ico",
+      "slug": "favicon",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-url-pattern"
+    },
+    {
+      "url": "https://mise.jdx.dev/favicon.svg",
+      "slug": "favicon",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-url-pattern"
+    },
+    {
+      "url": "https://mise.jdx.dev/getting-started.html",
+      "slug": "getting-started",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/glossary.html",
+      "slug": "glossary",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/hooks.html",
+      "slug": "hooks",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/how-i-use-mise.html",
+      "slug": "how-i-use-mise",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/ide-integration.html",
+      "slug": "ide-integration",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/installing-mise.html",
+      "slug": "installing-mise",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/bun.html",
+      "slug": "lang-bun",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/deno.html",
+      "slug": "lang-deno",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/dotnet.html",
+      "slug": "lang-dotnet",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/elixir.html",
+      "slug": "lang-elixir",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/erlang.html",
+      "slug": "lang-erlang",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/go.html",
+      "slug": "lang-go",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/java.html",
+      "slug": "lang-java",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/node.html",
+      "slug": "lang-node",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/python.html",
+      "slug": "lang-python",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/ruby.html",
+      "slug": "lang-ruby",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/rust.html",
+      "slug": "lang-rust",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/swift.html",
+      "slug": "lang-swift",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/lang/zig.html",
+      "slug": "lang-zig",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mcp.html",
+      "slug": "mcp",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/",
+      "slug": "mise-cookbook",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/cpp.html",
+      "slug": "mise-cookbook-cpp",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/docker.html",
+      "slug": "mise-cookbook-docker",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/neovim.html",
+      "slug": "mise-cookbook-neovim",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/nodejs.html",
+      "slug": "mise-cookbook-nodejs",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/presets.html",
+      "slug": "mise-cookbook-presets",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/python.html",
+      "slug": "mise-cookbook-python",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/ruby.html",
+      "slug": "mise-cookbook-ruby",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/shell-tricks.html",
+      "slug": "mise-cookbook-shell-tricks",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/mise-cookbook/terraform.html",
+      "slug": "mise-cookbook-terraform",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/paranoid.html",
+      "slug": "paranoid",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/plugin-lua-modules.html",
+      "slug": "plugin-lua-modules",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/plugin-publishing.html",
+      "slug": "plugin-publishing",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/plugin-usage.html",
+      "slug": "plugin-usage",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/plugins.html",
+      "slug": "plugins",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/registry.html",
+      "slug": "registry",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/schema/mise-task.json",
+      "slug": "schema-mise-task",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/schema/mise.json",
+      "slug": "schema-mise",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/shell-aliases.html",
+      "slug": "shell-aliases",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/sitemap.xml",
+      "slug": "sitemap",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-url-pattern"
+    },
+    {
+      "url": "https://mise.jdx.dev/tasks/",
+      "slug": "tasks",
+      "status": "translated",
+      "raw_path": "data/raw/mise/tasks/index.html",
+      "ja_path": "data/ja/mise/tasks/index.md",
+      "fetched_at": "2026-03-21T23:49:32Z",
+      "translated_at": "2026-03-22T08:49:32+0900",
+      "source_last_modified": "Sat, 21 Mar 2026 22:23:50 GMT",
+      "raw_sha256": "04e4d8907679eb60efd1e5467ba35262f663b29a72600b346549ca3b679e2f5a",
+      "notes": [
+        "raw HTML を保存済み",
+        "主要本文を日本語 Markdown として保存済み",
+        "サイドバーや前後ページナビゲーションは翻訳対象から外した",
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tasks/architecture.html",
+      "slug": "tasks-architecture",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tasks/file-tasks.html",
+      "slug": "tasks-file-tasks",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tasks/monorepo.html",
+      "slug": "tasks-monorepo",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tasks/running-tasks.html",
+      "slug": "tasks-running-tasks",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tasks/task-arguments.html",
+      "slug": "tasks-task-arguments",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tasks/task-configuration.html",
+      "slug": "tasks-task-configuration",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tasks/templates.html",
+      "slug": "tasks-templates",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tasks/toml-tasks.html",
+      "slug": "tasks-toml-tasks",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/team.html",
+      "slug": "team",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/templates.html",
+      "slug": "templates",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tips-and-tricks.html",
+      "slug": "tips-and-tricks",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/tool-plugin-development.html",
+      "slug": "tool-plugin-development",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/troubleshooting.html",
+      "slug": "troubleshooting",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/url-replacements.html",
+      "slug": "url-replacements",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
+      ]
+    },
+    {
+      "url": "https://mise.jdx.dev/vp-icons.css",
+      "slug": "vp-icons",
+      "status": "skipped",
+      "notes": [
+        "site-wide discovery で対象外と判定した"
+      ],
+      "skip_reason": "excluded-url-pattern"
+    },
+    {
+      "url": "https://mise.jdx.dev/walkthrough.html",
+      "slug": "walkthrough",
+      "status": "discovered",
+      "notes": [
+        "site-wide discovery で検出済み"
       ]
     }
   ]
