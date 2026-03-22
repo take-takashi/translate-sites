@@ -88,3 +88,5 @@ data/
   state/
     mise.json
 ```
+
+設定ファイル形式は [`sites/README.md`](sites/README.md)、保存構造は [`data/README.md`](data/README.md) を正本とします。

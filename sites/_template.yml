@@ -1,0 +1,9 @@
+name: example
+display_name: Example Site
+entry_urls:
+  - https://example.com/docs/
+allowed_domains:
+  - example.com
+raw_dir: data/raw/example
+ja_dir: data/ja/example
+state_file: data/state/example.json

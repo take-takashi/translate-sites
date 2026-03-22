@@ -92,3 +92,17 @@
 - proposal / design / specs / tasks を、設定ファイル・raw・ja・state を軸に定義した。
 - `pnpm exec openspec status --change add-config-driven-translation-workflow --json` で artifact 完了を確認した。
 - `pnpm exec openspec instructions apply --change add-config-driven-translation-workflow --json` で、次の実装タスクが 8 件あることを確認した。
+
+## Plan: add-config-driven-translation-workflow 実装
+
+- [x] `sites/` の設定ファイル形式と最小必須項目を文書化する
+- [x] `data/raw`, `data/ja`, `data/state` の保存ルールを文書化する
+- [x] sample データと state を OpenSpec tasks に沿って正式化する
+- [x] tasks を完了状態へ更新し、確認結果を記録する
+
+## Review: add-config-driven-translation-workflow 実装
+
+- `sites/README.md` と `sites/_template.yml` を追加し、設定ファイル形式と最小必須項目を固定した。
+- `data/README.md` を追加し、raw / ja / state の保存ルールと metadata 項目を定義した。
+- `sites/mise.yml`、`data/raw/mise/tasks/index.html`、`data/ja/mise/tasks/index.md`、`data/state/mise.json` を sample として正式化した。
+- `openspec/changes/add-config-driven-translation-workflow/tasks.md` の 8 task を完了済みに更新し、`pnpm exec openspec instructions apply --change add-config-driven-translation-workflow --json` で `8/8 complete` を確認した。
