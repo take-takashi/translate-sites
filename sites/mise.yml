@@ -1,0 +1,9 @@
+name: mise
+display_name: mise-en-place
+entry_urls:
+  - https://mise.jdx.dev/tasks/
+allowed_domains:
+  - mise.jdx.dev
+raw_dir: data/raw/mise
+ja_dir: data/ja/mise
+state_file: data/state/mise.json

@@ -65,3 +65,30 @@
 - `README.md`、`openspec/project.md`、`openspec/AGENTS.md` を、設定ファイル駆動の翻訳管理ワークフローに合わせて更新した。
 - パッケージ設定を最小構成へ戻し、CLI 用 scripts と依存を外した。
 - 次に必要なのは、サイト設定、raw 保存、ja 保存、状態追跡を扱う新しい OpenSpec change の作成だと整理した。
+
+## Plan: mise tasks サンプル作成
+
+- [x] `sites/mise.yml` を作成し、対象URLを定義する
+- [x] `https://mise.jdx.dev/tasks/` を raw として保存する
+- [x] raw を元に `ja` 側の翻訳Markdownを作成する
+- [x] `state` を作成し、確認結果を記録する
+
+## Review: mise tasks サンプル作成
+
+- `sites/mise.yml` を追加し、`https://mise.jdx.dev/tasks/` を最初の対象URLとして定義した。
+- `data/raw/mise/tasks/index.html` に raw HTML を保存した。
+- `data/ja/mise/tasks/index.md` に主要本文を日本語 Markdown として保存した。
+- `data/state/mise.json` に raw / ja / 取得時刻 / source hash / 状態を記録した。
+
+## Plan: OpenSpec 再定義
+
+- [x] 設定ファイル駆動の翻訳管理ワークフロー向けの change を作成する
+- [x] proposal / design / specs / tasks を新方針で定義する
+- [x] 状態を確認し、次の実装単位を明確にする
+
+## Review: OpenSpec 再定義
+
+- `add-config-driven-translation-workflow` change を作成した。
+- proposal / design / specs / tasks を、設定ファイル・raw・ja・state を軸に定義した。
+- `pnpm exec openspec status --change add-config-driven-translation-workflow --json` で artifact 完了を確認した。
+- `pnpm exec openspec instructions apply --change add-config-driven-translation-workflow --json` で、次の実装タスクが 8 件あることを確認した。
