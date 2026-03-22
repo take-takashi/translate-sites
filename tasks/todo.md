@@ -161,3 +161,16 @@
 - `data/raw/mise/environments/index.html` を基準に、`data/ja/mise/environments/index.md` を抜粋から全文ベースへ差し替えた。
 - 欠けていた `Using environment variables`、`Required Variables`、`config_root`、`env._.path`、`Plugin-provided env._ Directives` などの節を追加した。
 - `Templates` と `Using env vars in other env vars` の例文を原文準拠の内容へ修正し、`data/state/mise.json` の翻訳時刻も更新した。
+
+## Plan: mise site-wide change 作成
+
+- [x] `mise` 公式ドキュメント全体を対象にする OpenSpec change 名とスコープを決める
+- [x] proposal / design / specs / tasks を作成し、apply-ready にする
+- [x] change の状態を確認し、次の実装タスクを明確にする
+
+## Review: mise site-wide change 作成
+
+- `add-mise-site-wide-translation-workflow` change を作成した。
+- `site-page-discovery` と `site-wide-translation-batch` を新 capability として追加した。
+- `site-config-registry` と `translation-state-tracking` の delta spec を追加し、site-wide 収集と状態追跡を扱えるようにした。
+- `pnpm exec openspec status --change add-mise-site-wide-translation-workflow --json` で tasks が ready になることを確認した。
