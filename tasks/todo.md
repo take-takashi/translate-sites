@@ -106,3 +106,16 @@
 - `data/README.md` を追加し、raw / ja / state の保存ルールと metadata 項目を定義した。
 - `sites/mise.yml`、`data/raw/mise/tasks/index.html`、`data/ja/mise/tasks/index.md`、`data/state/mise.json` を sample として正式化した。
 - `openspec/changes/add-config-driven-translation-workflow/tasks.md` の 8 task を完了済みに更新し、`pnpm exec openspec instructions apply --change add-config-driven-translation-workflow --json` で `8/8 complete` を確認した。
+
+## Plan: 実装用 change 作成
+
+- [x] `implement-site-config-and-storage-bootstrap` change を作成する
+- [x] 実装スコープに合わせて proposal / design / specs / tasks を定義する
+- [x] 次の apply フェーズに進める状態を確認する
+
+## Review: 実装用 change 作成
+
+- `implement-site-config-and-storage-bootstrap` change を作成した。
+- 正式 spec を前提に、bootstrap 実装向けの proposal / design / delta specs / tasks を追加した。
+- `pnpm exec openspec status --change implement-site-config-and-storage-bootstrap --json` で artifact 完了を確認した。
+- `pnpm exec openspec instructions apply --change implement-site-config-and-storage-bootstrap --json` で、次の実装タスクが 8 件あることを確認した。
